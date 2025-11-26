@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+header img {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+header button {
+    display: block;
+    margin: 15px auto;
+    padding: 8px;
+}
+
