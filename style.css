@@ -87,10 +87,10 @@ li img:hover {
 
 @keyframes breathe {
     0% {
-        box-shadow: 0 0 10px rgb(0, 35, 87);
+        box-shadow: 0 0 10px rgb(0, 102, 255);
     }
     100% {
-        box-shadow: 0 0 16px rgb(0, 35, 87);
+        box-shadow: 0 0 16px rgb(0, 102, 255);
     }
 }
 
@@ -104,25 +104,36 @@ li img:hover {
     background-color: rgb(40, 8, 48);
     box-shadow: 0 0 16px rgb(255, 56, 255);
     border-color: rgb(248, 169, 224);
+    animation: breatheDark 2s ease-out infinite alternate;
 }
 
 .darkButton:hover {
     box-shadow: 0 0 8px white;
 }
 
-
 .darkProfile {
     border-color: rgb(255, 125, 216);
     box-shadow: 0 0 16px rgb(255, 0, 255);
+    animation: breatheDark 2s ease-out infinite alternate;
 }
 
 .darkImages {
     border-color: rgb(255, 160, 226);
     box-shadow: 0 0 16px rgb(255, 56, 255);
+    animation: breatheDark 2s ease-out infinite alternate;
 }
 
 .darkText {
     text-shadow: 0 0 3px rgb(247, 0, 255);
+}
+
+@keyframes breatheDark {
+    0% {
+        box-shadow: 0 0 8px rgb(255, 0, 255);
+    }
+    100% {
+        box-shadow: 0 0 16px rgb(255, 0, 255);
+    }
 }
 
 @media screen and (min-width: 600px) {
