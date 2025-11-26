@@ -25,3 +25,8 @@ header button {
     padding: 8px;
 }
 
+.darkMode {
+    color: white;
+    background-color: black;
+}
+
