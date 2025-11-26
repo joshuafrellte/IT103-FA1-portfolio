@@ -1,14 +1,21 @@
 * {
     font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    transition: 0.2s ease;
 }
 
 body {
+    background-color: rgb(215, 230, 253);
     padding: 10px;
 }
 
 header {
     text-align: center;
-    margin: 0 auto;
+    margin: 33px auto;
+}
+
+img {
+    border: 2px solid black;
+    box-shadow: 0 0 8px rgb(0, 0, 0);
 }
 
 header img {
@@ -16,17 +23,78 @@ header img {
     width: 225px;
     aspect-ratio: 1/1;
     margin: 15px auto;
+    border: 6px solid black;
     border-radius: 50%;
+    
+}
+
+header img:hover {
+    transform: scale(1.1);
 }
 
 header button {
     display: block;
     margin: 15px auto;
     padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 33px;
+}
+
+li label {
+    display: block;
+}
+
+li img {
+    width: 500px;
+    padding: 0
 }
 
 .darkMode {
     color: #FFFFFF;
     background-color: rgb(10, 6, 27);
+}
+
+.darkButton {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-color: white;
+}
+
+.darkButton:hover {
+    box-shadow: 0 0 8px white;
+}
+
+
+.darkProfile {
+    border-color: white;
+    box-shadow: 0 0 16px white;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    
+    
 }
 
