@@ -22,7 +22,7 @@ header button {
 }
 
 .darkMode {
-    color: white;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: rgb(10, 6, 27);
 }
 
