@@ -1,5 +1,5 @@
-body {
-    font-family: Helvetica, Arial, sans-serif;
+* {
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -7,15 +7,11 @@ header {
     margin: 0 auto;
 }
 
-header h1 {
-    font-weight: bolder;
-}
-
 header img {
     display: block;
-    margin: 15px auto;
-    width: 200px;
+    width: 225px;
     aspect-ratio: 1/1;
+    margin: 15px auto;
     border-radius: 50%;
 }
 
